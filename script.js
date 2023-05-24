@@ -3,7 +3,7 @@ let password=document.querySelectorAll('input')[1]
 let button=document.querySelectorAll('button')[0]
 
 button.addEventListener('click',(e)=>{
-      if(input.value ===  process.env.USERNAME && password.value ===  process.env.PASSWORD){
+      if(input.value === 'ayinmiro' && password.value === 'tobi'){
         console.log('welcome')
     } else{
         e.preventDefault()
