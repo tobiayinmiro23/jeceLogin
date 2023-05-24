@@ -49,11 +49,13 @@ body {
 @media (max-width:400px) {
     .signin{
         width: 95%;
+        
+        padding: 0.8rem 0rem;
     }
     .signin input ,
     .signin button
     {
-        margin-top: 2.5rem ;
+        margin-top: 3rem ;
     }
     
 }
