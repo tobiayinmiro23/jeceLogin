@@ -1,0 +1,54 @@
+body {
+    background: -o-linear-gradient(to right, #78ffd6, #007991);
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+    background: linear-gradient(rgb(120, 255, 214), rgb(0, 121, 145));
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding-bottom: 15vh;
+  
+  }
+  h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .signin input {
+    width: 84%;
+    outline: none;
+    padding: 0.56rem 0.4rem;
+    margin-top: 2rem ;
+    background: rgb(238, 243, 243);
+    border: none;
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 0.2rem;
+  }
+  .signin {
+    width: 20rem;
+    margin: auto;
+    margin-top: 7rem;
+    text-align: center;
+    padding-top: 1rem;
+    background: white;
+    border-radius: 0.3rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  }
+  .signin button {
+    border: none;
+    outline: none;
+    width: 85%;
+    background: #38ef7d;
+    box-shadow: 0px 1.4px 2px darkgray;
+    cursor: pointer;
+    padding: 0.6rem 0rem;
+    margin-bottom: 1.9rem;
+    border-radius: 0.2rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+  }
+  .signin button:hover {
+    background: #17cf5e;
+  }
+@media (max-width:352px) {
+    .signin{
+        width: 95%;
+    }
+    
+}
