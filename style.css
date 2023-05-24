@@ -50,5 +50,11 @@ body {
     .signin{
         width: 95%;
     }
+    .signin input ,
+    .signin button
+    {
+        margin-top: 2.5rem ;
+    }
     
 }
+
