@@ -4,7 +4,7 @@ let button=document.querySelectorAll('button')[0]
 
 const handleButton=()=>{
     if(input.value === 'ayinmiro' && password.value === 'tobi'){
-        console.log('welcome')
+       window.location='https://jece-project.vercel.app/'
         return true
 
     } else{
