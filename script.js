@@ -6,7 +6,7 @@ button.addEventListener('click',(e)=>{
 let password=document.getElementById('password').value
 console.log(password)
 
-if(username == process.env.USERNAME && password == process.env.PASSWORD){
+if(username == 'ayinmiro' && password == 'tobi'){
     console.log('welcome')
 } else{
       e.preventDefault()
